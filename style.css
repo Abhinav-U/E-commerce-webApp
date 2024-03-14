@@ -321,7 +321,7 @@ i{
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-image: url(./img/banner/b2.jpg);
+  background-image: url("./img/banner/b2.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -359,7 +359,7 @@ i{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(./img/banner/b17.jpg);
+  background-image: url("./img/banner/b17.jpg");
   min-width: 540px;
   height: 50vh;
   background-size: cover;
@@ -372,7 +372,7 @@ i{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(./img/banner/b10.jpg);
+  background-image: url("./img/banner/b10.jpg");
   min-width: 540px;
   height: 50vh;
   background-size: cover;
@@ -416,7 +416,7 @@ i{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(./img/banner/b7.jpg);
+  background-image: url("./img/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -426,11 +426,11 @@ i{
 }
 
 #banner3 .banner-box2{
-  background-image: url(./img/banner/b4.jpg);
+  background-image: url("./img/banner/b4.jpg");
 }
 
 #banner3 .banner-box3{
-  background-image: url(./img/banner/b18.jpg);
+  background-image: url("./img/banner/b18.jpg");
 }
 
 #banner3 h2{
@@ -450,7 +450,7 @@ i{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(./img/banner/b14.png);
+  background-image: url("./img/banner/b14.png");
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
@@ -579,7 +579,7 @@ footer .copyright p{
 /* Shop Page Styling */
 
 #page-header{
-  background-image: url(./img/banner/b1.jpg);
+  background-image: url("./img/banner/b1.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -744,7 +744,7 @@ footer .copyright p{
 /* About Us Page Styling */
 
 #page-header.about-header{
-  background-image: url(./img/about/banner.png);
+  background-image: url("./img/about/banner.png");
 }
 
 #about-head{
