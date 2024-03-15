@@ -101,7 +101,7 @@ body {
 
 #navbar li{
   list-style: none;
-  padding: 0 20px;
+  padding: 0 15px;
   position: relative;
 }
 
@@ -360,7 +360,7 @@ i{
   justify-content: center;
   align-items: flex-start;
   background-image: url("./img/banner/b17.jpg");
-  min-width: 540px;
+  min-width: 510px;
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -373,7 +373,7 @@ i{
   justify-content: center;
   align-items: flex-start;
   background-image: url("./img/banner/b10.jpg");
-  min-width: 540px;
+  min-width: 510px;
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -1014,7 +1014,43 @@ footer .copyright p{
 }
 
 /* Media Query */
-@media(max-width:799px){
+@media(min-width:1420px) and (max-width: 1900px){
+  #feature{
+    justify-content: center;
+  }
+
+  #feature .fe-box{
+    margin: 15px 15px;
+  }
+}
+@media(min-width:1200px) and (max-width: 1420px){
+  #feature{
+    flex-wrap: nowrap;
+  }
+
+  #feature .fe-box{
+    margin: 10px 10px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+  #feature{
+    display: grid;
+    grid-template-columns: repeat(3, 15fr);
+    padding-left: 140px;
+  }
+
+  #feature .fe-box{
+    margin: 15px 15px;
+  }
+
+  #sm-banner .banner-box{
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media(min-width:799px){
   .section-p1{
     padding: 40px 40px;
   }
@@ -1081,7 +1117,9 @@ footer .copyright p{
   }
 
   #feature{
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 15fr);
+    padding-left: 8.5vw;
   }
 
   #feature .fe-box{
@@ -1093,11 +1131,11 @@ footer .copyright p{
   }
 
   #product1 .pro{
-    margin: 20px;
+    margin: 15px;
   }
 
   #banner{
-    height: 25vh;
+    height: 35vh;
   }
 
   #sm-banner .banner-box{
@@ -1150,11 +1188,11 @@ footer .copyright p{
   
   #hero{
     padding: 0 20px;
-    background-position: 55%;
+    background-position: 68%;
   }
 
   #feature{
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   #feature .fe-box{
